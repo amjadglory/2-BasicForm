@@ -1,0 +1,116 @@
+<html>
+  <head> </head>
+  <body style="color: black">
+    <form action="">
+      <fieldset style="background-color: #a32b2d">
+        <legend style="background-color: #45729d">Personal Data</legend>
+        <fieldset style="background-color: #d9a51e">
+          <legend style="background-color: #6496eb; height: 90px">
+            <br /><br />Your Name
+          </legend>
+          <br />
+          <table>
+            <tbody>
+              <tr>
+                <td>
+                  <label for="fn">First Name </label>
+                </td>
+                <td>:</td>
+                <td>
+                  <input type="text" id="fn" name="fn" placeholder="ex.Amjad" />
+                </td>
+              </tr>
+
+              <br />
+
+              <tr>
+                <td><label for="ln">Last Name </label></td>
+                <td>:</td>
+                <td>
+                  <input
+                    type="text"
+                    id="ln"
+                    name="ln"
+                    placeholder="ex.Salah-Aldeen"
+                  />
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </fieldset>
+
+        <br />
+
+        <table>
+          <tbody>
+            <tr>
+              <td><label for="phone">Phone number </label></td>
+              <td>:</td>
+              <td><input type="number" id="phone" name="phone" /></td>
+            </tr>
+
+            <br />
+
+            <tr>
+              <td><label for="mail">Email </label></td>
+              <td>:</td>
+              <td><input type="email" id="mail" name="mail" /></td>
+            </tr>
+
+            <br />
+
+            <tr>
+              <td><label for="pass">Password </label></td>
+              <td>:</td>
+              <td><input type="password" id="pass" name="pass" /></td>
+            </tr>
+
+            <br />
+
+            <tr>
+              <td><label for="re-pass">Re-Password </label></td>
+              <td>:</td>
+              <td><input type="password" id="re-pass" name="re-pass" /></td>
+            </tr>
+          </tbody>
+        </table>
+        <br />
+        <br />
+        <br />
+
+        <input type="radio" id="mGen" name="gen" value="male" />
+        <label for="mGen">Male</label>
+        <br />
+        <input type="radio" id="fGen" name="gen" value="female" />
+        <label for="fGen">Female</label>
+        <br />
+        <br />
+
+        <input type="checkbox" id="stu" name="education" value="student" />
+        <label for="stu">Student</label>
+        <br />
+        <input type="checkbox" id="grad" name="education" value="graduated" />
+        <label for="grad">Graduated</label>
+
+        <br />
+        <br />
+        <select name="university" id="uni">
+          <optgroup label="Egypt Universities">
+            <option value="cairo">Cairo</option>
+            <option value="alex">Alexandria</option>
+            <option value="tanta" selected>Tanta</option>
+            <option value="mansora">Mansora</option>
+          </optgroup>
+        </select>
+        <br />
+        <input
+          type="image"
+          src="img/222-black-to-white.jpg"
+          width="60px"
+          height="30px"
+          alt="submit"
+        />
+      </fieldset>
+    </form>
+  </body>
+</html>
